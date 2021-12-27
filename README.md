@@ -5,6 +5,8 @@ This project is a multi button RGB scene cotroller that fits a decora faceplate.
 
 Thanks to digiblur and all the members of the projects-and-shares channel on his discord server for suggestions, help and inspiration. <br>
 <br>
+Find the schematic and pcb at https://oshwlab.com/mdegenaa <br>
+<br>
 Tasmota Template and instructions <br>
 
 
