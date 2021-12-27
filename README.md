@@ -7,8 +7,10 @@ Thanks to digiblur and all the members of the projects-and-shares channel on his
 <br>
 Find the schematic and pcb at https://oshwlab.com/mdegenaa <br>
 <br>
-Tasmota Template and instructions <br>
 
+I have included some basic esphome yaml for this switch. <br>
+<br>
+Tasmota Template and instructions <br>
 
 {"NAME":"Logix3","GPIO":[1,1,1,1,34,33,1,1,1376,32,1312,1,1,1],"FLAG":0,"BASE":18} <br>
 <br>
