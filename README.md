@@ -26,7 +26,13 @@ SetOption73	1 - Detach buttons from relays and send multi-press and hold MQTT me
 <br>
 SetOption65	1 - Device recovery using fast power cycle detection (0 = enabled (default) 1 = disabled)<br>
 <br>
-<br>
+
+ 3D Printing<br>
+ 
+ Print the back cover in the color of your choice
+ ![GitHub Logo](https://github.com/logichousepcb/Multi-Button-WS2812-RGB-esp8266-Decora/blob/main/3Button_Back%20.stl)<br>
+ 
+ <br>
 
  
 
