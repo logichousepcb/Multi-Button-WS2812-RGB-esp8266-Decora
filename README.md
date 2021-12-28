@@ -28,9 +28,13 @@ SetOption65	1 - Device recovery using fast power cycle detection (0 = enabled (d
 <br>
 
  3D Printing<br>
- 
- Print the back cover in the color of your choice
- ![GitHub Logo](https://github.com/logichousepcb/Multi-Button-WS2812-RGB-esp8266-Decora/blob/main/3Button_Back%20.stl)<br>
+ <br>
+ Print the back cover in the color of your choice<br>
+ Print 3 buttons in clear PLA (white works in a pinch)<br>
+ Print the Decora face in white (or whatever you like)<br>
+ Print the Light Blocker in black or a dark color<br>
+ <br>
+ ![GitHub Logo](https://github.com/logichousepcb/Multi-Button-WS2812-RGB-esp8266-Decora/blob/main/3button_model.PNG)<br>
  
  <br>
 
