@@ -26,7 +26,7 @@ SetOption73	1 - Detach buttons from relays and send multi-press and hold MQTT me
 <br>
 SetOption65	1 - Device recovery using fast power cycle detection (0 = enabled (default) 1 = disabled)<br>
 <br>
-
+<br>
 
  
 
