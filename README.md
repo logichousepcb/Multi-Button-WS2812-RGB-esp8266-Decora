@@ -7,7 +7,8 @@ Thanks to digiblur and all the members of the projects-and-shares channel on his
 <br>
 Find the schematic and pcb at https://oshwlab.com/mdegenaa <br>
 <br>
-
+For a prebuilt controller or just the bare circuit board, visit my store at https://logix-home.com/ and select board only for a bare board.<br>
+<br>
 I have included some basic esphome yaml for this switch. <br>
 <br>
 Tasmota Template and instructions <br>
