@@ -28,7 +28,7 @@ SetOption73	1 - Detach buttons from relays and send multi-press and hold MQTT me
 <br>
 SetOption65	1 - Device recovery using fast power cycle detection (0 = enabled (default) 1 = disabled)<br>
 <br>
-
+TempOffset XX - where XX is a number from -12.6..12.6 as these dallas temp sensors aren't known for their accuracy<br>
  3D Printing<br>
  <br>
  Print the back cover in the color of your choice<br>
