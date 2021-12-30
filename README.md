@@ -13,8 +13,9 @@ I have included some basic esphome yaml for this switch. <br>
 <br>
 Tasmota Template and instructions <br>
 
-{"NAME":"Logix3","GPIO":[1,1,1,1,34,33,1,1,1376,32,1312,1,1,1],"FLAG":0,"BASE":18} <br>
+{"NAME":"Logix3","GPIO":[1,1,1,1,32,33,1,1,1376,34,1312,1,1,1],"FLAG":0,"BASE":18} <br>
 <br>
+
 Here is a list of options I have configured on my device<br>
 <br>
 Led<x>	#RRGGBB = set hex color value where <x> is the pixel number of the LED. A blank-delimited list of colors sets multiple successive pixels. <br>
