@@ -19,7 +19,7 @@ For the ESP-12F version here is the template<br>
 
 For the ESP-C3-12F version use the one bellow as the pinout are different <br>
 
-{"NAME":"Logix3-C3","GPIO":[1,1,1,1,1376,32,0,1,1,1,1,0,0,0,0,0,0,0,34,33,1,1],"FLAG":0,"BASE":1} <br>
+{"NAME":"Logix3-C3","GPIO":[1,1,1,1312,1376,32,0,1,1,1,1,0,0,0,0,0,0,0,34,33,1,1],"FLAG":0,"BASE":1} <br>
 <br>
 
 Here is a list of options I have configured on my device<br>
