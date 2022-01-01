@@ -13,7 +13,13 @@ I have included some basic esphome yaml for this switch. <br>
 <br>
 Tasmota Template and instructions <br>
 
+For the ESP-12F version here is the template<br>
+
 {"NAME":"Logix3","GPIO":[1,1,1,1,32,33,1,1,1376,34,1312,1,1,1],"FLAG":0,"BASE":18} <br>
+
+For the ESP-C3-12F version use the one bellow as the pinout are different <br>
+
+{"NAME":"Logix3-C3","GPIO":[1,1,1,1,1376,32,0,1,1,1,1,0,0,0,0,0,0,0,34,33,1,1],"FLAG":0,"BASE":1} <br>
 <br>
 
 Here is a list of options I have configured on my device<br>
