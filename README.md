@@ -37,6 +37,8 @@ SetOption65	1 - Device recovery using fast power cycle detection (0 = enabled (d
 TempOffset XX - where XX is a number from -12.6..12.6 as these dallas temp sensors aren't known for their accuracy<br>
  3D Printing<br>
  <br>
+ <a href="https://www.buymeacoffee.com/logixpcbM" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a> <br>
+ 
  Print the back cover in the color of your choice<br>
  Print 3 buttons in clear PLA (white works in a pinch)<br>
  Print the Decora face in white (or whatever you like)<br>
