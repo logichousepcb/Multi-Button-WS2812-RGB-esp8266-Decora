@@ -21,7 +21,9 @@ For the ESP-C3-12F version use the one bellow as the pinout are different <br>
 
 {"NAME":"Logix3-C3","GPIO":[1,1,1,1312,1376,32,0,1,1,1,1,0,0,0,0,0,0,0,34,33,1,1],"FLAG":0,"BASE":1} <br>
 <br>
-
+For the ESP-C3-12F 6 Button version with PIR and Temperature use the one bellow as the pinout are different <br>
+{"NAME":"Logix6-C3","GPIO":[1,1,35,1376,32,166,34,33,1,1,36,0,0,0,0,0,0,0,1312,37,1,1],"FLAG":0,"BASE":1}
+<br>
 Here is a list of options I have configured on my device<br>
 <br>
 Led<x>	#RRGGBB = set hex color value where <x> is the pixel number of the LED. A blank-delimited list of colors sets multiple successive pixels. <br>
