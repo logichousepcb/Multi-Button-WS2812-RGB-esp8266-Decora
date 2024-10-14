@@ -1,0 +1,98 @@
+substitutions:
+  name: esphome-web-d758d5
+  friendly_name: Logix3-d758d5
+
+esphome:
+  name: ${name}
+  friendly_name: ${friendly_name}
+  min_version: 2024.6.0
+  name_add_mac_suffix: false
+  project:
+    name: esphome.web
+    version: dev
+
+esp8266:
+  board: esp01_1m
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+# Allow Over-The-Air updates
+ota:
+- platform: esphome
+
+# Allow provisioning Wi-Fi via serial
+improv_serial:
+
+wifi:
+  # Set up a wifi access point
+  ap: {}
+
+# In combination with the `ap` this allows the user
+# to provision wifi credentials to the device via WiFi AP.
+captive_portal:
+
+dashboard_import:
+  package_import_url: github://esphome/example-configs/esphome-web/esp8266.yaml@main
+  import_full_config: true
+
+# To have a "next url" for improv serial
+web_server:
+  port: 80
+
+
+binary_sensor:
+  - platform: gpio
+    pin: 
+      number: GPIO13
+      mode: INPUT_PULLUP
+      inverted: FALSE
+    name: 'Button 1'
+    id: b11
+  - platform: gpio
+    pin: 
+      number: GPIO5
+      mode: INPUT_PULLUP
+      inverted: FALSE
+    name: 'Button 2'
+    id: b22
+  - platform: gpio
+    pin: 
+      number: GPIO4
+      mode: INPUT_PULLUP
+      inverted: FALSE
+    name: 'Button 3'
+    id: b33
+
+light:
+  - platform: neopixelbus
+    type: GRB
+    variant: WS2811
+    pin: GPIO12
+    num_leds: 3
+    name: "Lights"
+    id: LED_ring
+  - platform: partition
+    name: "LED1"
+    id: section1
+    segments:
+      - id: LED_ring
+        from: 0
+        to: 0
+  - platform: partition
+    name: "LED2"
+    id: section2
+    segments:
+      - id: LED_ring
+        from: 1
+        to: 1
+  - platform: partition
+    name: "LED33"
+    id: section3
+    segments:
+      - id: LED_ring
+        from: 2
+        to: 2
