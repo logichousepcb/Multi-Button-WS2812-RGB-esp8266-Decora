@@ -49,21 +49,21 @@ binary_sensor:
     pin: 
       number: GPIO13
       mode: INPUT_PULLUP
-      inverted: FALSE
+      inverted: TRUE
     name: 'Button 1'
     id: b11
   - platform: gpio
     pin: 
       number: GPIO5
       mode: INPUT_PULLUP
-      inverted: FALSE
+      inverted: TRUE
     name: 'Button 2'
     id: b22
   - platform: gpio
     pin: 
       number: GPIO4
       mode: INPUT_PULLUP
-      inverted: FALSE
+      inverted: TRUE
     name: 'Button 3'
     id: b33
 
@@ -90,7 +90,7 @@ light:
         from: 1
         to: 1
   - platform: partition
-    name: "LED33"
+    name: "LED3"
     id: section3
     segments:
       - id: LED_ring
