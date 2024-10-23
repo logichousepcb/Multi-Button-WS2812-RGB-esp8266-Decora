@@ -4,10 +4,9 @@ Multi Button WS2812 RGB esp8266 Decora <br>
 This project is a multi button RGB scene cotroller that fits a decora faceplate.  This initial project built on previous projects after digiblur suggested some ideas.  Using my already built template for creating devices that fit into a decora faceplate I set out to create thiis open hardware.  I have plans to create a few different version but I figure I would start with this 3 button version to prove the concept and built off of.
 
 Thanks to digiblur and all the members of the projects-and-shares channel on his discord server for suggestions, help and inspiration. <br>
+
 <br>
-Find the schematic and pcb at https://oshwlab.com/mdegenaa <br>
-<br>
-For a prebuilt controller or just the bare circuit board, visit my store at https://logix-home.com/ and select board only for a bare board.<br>
+For a prebuilt controller or just the bare circuit board, visit my store at [https://logix-home.com/](https://logixdiy.com/) and select board only for a bare board.<br>
 <br>
 I have included some basic esphome yaml for this switch. <br>
 <br>
