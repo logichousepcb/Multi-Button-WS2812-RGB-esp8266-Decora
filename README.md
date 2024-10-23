@@ -6,7 +6,7 @@ This project is a multi button RGB scene cotroller that fits a decora faceplate.
 Thanks to digiblur and all the members of the projects-and-shares channel on his discord server for suggestions, help and inspiration. <br>
 
 <br>
-For a prebuilt controller or just the bare circuit board, visit my store at [https://logix-home.com/](https://logixdiy.com/) and select board only for a bare board.<br>
+For a prebuilt controller or just the bare circuit board, visit my store at https://logixdiy.com/ and select board only for a bare board.<br>
 <br>
 I have included some basic esphome yaml for this switch. <br>
 <br>
