@@ -1,6 +1,6 @@
 substitutions:
-  name: esphome-web-d758d5
-  friendly_name: Logix3-d758d5
+  name: logix3
+  friendly_name: Logix3
 
 esphome:
   name: ${name}
@@ -74,25 +74,25 @@ light:
     pin: GPIO12
     num_leds: 3
     name: "Lights"
-    id: LED_ring
+    id: LED_b
   - platform: partition
     name: "LED1"
     id: section1
     segments:
-      - id: LED_ring
+      - id: LED_b
         from: 0
         to: 0
   - platform: partition
     name: "LED2"
     id: section2
     segments:
-      - id: LED_ring
+      - id: LED_b
         from: 1
         to: 1
   - platform: partition
     name: "LED3"
     id: section3
     segments:
-      - id: LED_ring
+      - id: LED_b
         from: 2
         to: 2
