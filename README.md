@@ -29,13 +29,13 @@ Led<x>	#RRGGBB = set hex color value where <x> is the pixel number of the LED. A
 <br>
 SetOption1 1 - turn off multi press to prevent accidental long press reset<br>
 <br>
-SetOption8 1 -	Show temperature in (0= Celsius (default) 1 = Fahrenheit)<br>
+(OLD VERSION ONLY) SetOption8 1 -	Show temperature in (0= Celsius (default) 1 = Fahrenheit)<br>
  <br>
 SetOption73	1 - Detach buttons from relays and send multi-press and hold MQTT messages instead (0 = disable (default) 1 = enable) <br>
 <br>
 SetOption65	1 - Device recovery using fast power cycle detection (0 = enabled (default) 1 = disabled)<br>
 <br>
-TempOffset XX - where XX is a number from -12.6..12.6 as these dallas temp sensors aren't known for their accuracy<br>
+(OLD VERSION ONLY) TempOffset XX - where XX is a number from -12.6..12.6 as these dallas temp sensors aren't known for their accuracy<br>
  3D Printing<br>
  <br>
  <a href="https://www.buymeacoffee.com/logixpcbM" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a> <br>
